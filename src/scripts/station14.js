@@ -26,7 +26,7 @@ const buildFullName = (student) => {
   // 氏名がわかるようにしつつ、半角スペースで繋いでください。
   // またtest配列のそれぞれのオブジェクトに対して、full_nameのプロパティが追加されるように実装すること
   const res = { ...student };
-  res.full_name = res.family_name + " " + res.family_name;
+  res.full_name = res.family_name + " " + res.first_name;
   return res;
 };
 
