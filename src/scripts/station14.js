@@ -21,13 +21,11 @@ const getData = () => {
   return test.map(buildFullName);
 };
 
-const buildFullName = (students) => {
+const buildFullName = (student) => {
   // Station14の問題はこちらです。想定する答えをここを書いてください。
   // 氏名がわかるようにしつつ、半角スペースで繋いでください。
   // またtest配列のそれぞれのオブジェクトに対して、full_nameのプロパティが追加されるように実装すること
-  students.forEach((student) => {
-    student.full_name = student.family_name + " " + student.family_name;
-  });
+  student.full_name = student.family_name + " " + student.family_name;
 };
 
 // 出力が想定される答え
