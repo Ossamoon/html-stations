@@ -1,3 +1,5 @@
-export function getData() {
+const getData = () => {
   return "Station12をクリア!";
-}
+};
+
+export { getData };
