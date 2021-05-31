@@ -6,5 +6,3 @@ const getData = () => {
 const arrowFunction = () => {
   return "Arrow";
 };
-
-export { getData };
